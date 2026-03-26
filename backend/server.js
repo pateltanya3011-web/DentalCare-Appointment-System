@@ -14,7 +14,8 @@ app.use(
     origin: [
       'https://pathlab-frontend-nine.vercel.appdental-care-appointment-system-c1jg-njbbfi2i9.vercel.app',
       'http://localhost:5173',
-      'dental-care-appointment-system-c1jg.vercel.app'
+      'dental-care-appointment-system-c1jg.vercel.app',
+      'https://dental-care-appointment-system-c1jg.vercel.app/'
     ],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
